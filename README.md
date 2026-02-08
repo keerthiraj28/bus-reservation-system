@@ -135,7 +135,6 @@ Tables used in the project:
     DB_USERNAME=your_db_username
     DB_PASSWORD=your_db_password
     ```
-
     4. Click Apply → OK
 
    ### Option B: Using Command Line (Windows)
