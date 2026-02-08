@@ -130,7 +130,7 @@ Tables used in the project:
     2. Select `TicketingSystemApplication`
     3. Add environment variables:
 
-    ```http
+    ```bash
     DB_URL=jdbc:mysql://localhost:3306/ticketing_system
     DB_USERNAME=your_db_username
     DB_PASSWORD=your_db_password
@@ -140,7 +140,7 @@ Tables used in the project:
 
    ### Option B: Using Command Line (Windows)
 
-    ```http
+    ```bash
     setx DB_URL jdbc:mysql://localhost:3306/ticketing_system
     setx DB_USERNAME your_db_username
     setx DB_PASSWORD your_db_password
@@ -151,7 +151,7 @@ Tables used in the project:
 
 4. Run the **Spring Boot** application
 5. Backend will start at:
-    ```bash
+    ```http
     http://localhost:8080
     ```
 
@@ -162,7 +162,7 @@ Tables used in the project:
 2. Install **Live Server** extension
 3. Right-click index.html → **Open with Live Server**
 4. Frontend will run at:
-    ```bash
+    ```http
     http://127.0.0.1:5500
     ```
 ⚠️ **Backend must be running before using the frontend**
@@ -197,7 +197,7 @@ Content-Type: application/json
 ```
 
 ## Request Body (Example)
-```bash
+```json
 {
   "busNumber": "TN01AB1234",
   "busName": "Express",
@@ -206,7 +206,7 @@ Content-Type: application/json
 ```
 
 ## Response
-```bash
+```json
 {
   "id": 1,
   "busNumber": "TN01AB1234",
