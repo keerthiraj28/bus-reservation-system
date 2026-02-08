@@ -1,0 +1,29 @@
+.page-center {
+    display: flex;
+    justify-content: center;
+}
+
+.booking-container {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.booking-table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    min-width: 360px;
+}
+
+.booking-table th,
+.booking-table td {
+    border: 1px solid #999;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+.booking-table th {
+    background-color: #f2f2f2;
+}

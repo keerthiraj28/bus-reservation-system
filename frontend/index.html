@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bus Reservation System</title>
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <div class="page-center">
+        <div>
+
+            <h2>Available Buses</h2>
+
+            <table id="busTable">
+                <thead>
+                    <tr>
+                        <th>Bus Number</th>
+                        <th>Bus Name</th>
+                        <th>Total Seats</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- buses inserted here -->
+                </tbody>
+            </table>
+
+            <br>
+
+            <button onclick="window.location.href='bookings.html'">
+                My Bookings
+            </button>
+
+        </div>
+    </div>
+
+    <script src="scripts/buses.js"></script>
+</body>
+
+</html>

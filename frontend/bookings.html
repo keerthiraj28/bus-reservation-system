@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking History</title>
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/bookings.css">
+</head>
+<body>
+
+    <div class="page-center">
+        <div class="booking-container">
+
+            <!-- CONTENT AREA -->
+            <div>
+                <h2>My Bookings</h2>
+
+                <table class="booking-table">
+                    <thead>
+                        <tr>
+                            <th>Bus</th>
+                            <th>Seat</th>
+                            <th>Date</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="bookingTable"></tbody>
+                </table>
+            </div>
+
+            <!-- FOOTER AREA -->
+            <div>
+                <button onclick="goBack()">⬅ Back to Buses</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="scripts/bookings.js"></script>
+</body>
+
+</html>

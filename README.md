@@ -49,7 +49,7 @@ The project follows a **real-world architecture** where the backend exposes REST
 
     bus-reservation-system
     │
-    ├── bus-reservation-system(backend)
+    ├── bus-reservation-system
     │ ├── src/main/java/com/busreservation
     │ │ ├── controller
     │ │ ├── entity

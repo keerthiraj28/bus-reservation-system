@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select Seat</title>
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/seats.css">
+</head>
+<body>
+    <div class="page-center">
+
+        <h2>Select a Seat</h2>
+
+        <div class="seat-wrapper">
+            <div class="driver">🧑‍✈️ Driver</div>
+
+            <div class="legend">
+                <span class="legend-item available"></span> Available
+                <span class="legend-item booked"></span> Booked
+            </div>
+
+            <div id="seatContainer" class="seat-grid"></div>
+
+            <br>
+            <button onclick="goBack()">⬅ Back to Buses</button>
+        </div>
+
+    </div>
+
+
+    <script src="scripts/seats.js"></script>
+</body>
+</html>
