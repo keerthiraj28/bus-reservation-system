@@ -107,7 +107,7 @@ Tables used in the project:
 1. Open the backend project in IntelliJ IDEA
 
 2. Create the database:
-   ```sql
+   ```bash
    CREATE DATABASE bus_reservation;
    ```
 
